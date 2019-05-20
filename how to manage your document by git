@@ -9,13 +9,13 @@ if any questions, please type the command "git (any command) --help"
 
 
 
-纳入版本管理
+###纳入版本管理
 $ git add
 全部纳入
 $ git add *
 
 
-提交
+###提交
 $ git commit
 提交，后面跟上注释内容
 $ git commit -m "description"
@@ -23,7 +23,7 @@ $ git commit -m "description"
 $git commit -a -m "description"
 
 
-分支
+###分支
 $ git branch
 建立分支
 $ git branch "branchname"
