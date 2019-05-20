@@ -1,0 +1,36 @@
+用来记录使用git来管理文档的经历
+To record the experience of my using git to manage my document and file folders.
+
+git命令(个人常用向)
+the command
+
+碰到不会的，可以先打--help求助
+if any questions, please type the command "git (any command) --help"
+
+
+
+纳入版本管理
+$ git add
+全部纳入
+$ git add *
+
+
+提交
+$ git commit
+提交，后面跟上注释内容
+$ git commit -m "description"
+将所有已跟踪文件中的执行修改或删除操作的文件都提交到本地仓库
+$git commit -a -m "description"
+
+
+分支
+$ git branch
+建立分支
+$ git branch "branchname"
+切换分支
+$ git checkout "branchname"
+删除分支
+$ git branch -d "branchname"
+
+
+by SheldonWu 2019.05.20
